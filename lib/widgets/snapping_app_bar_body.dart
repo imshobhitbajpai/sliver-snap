@@ -59,6 +59,7 @@ class SnappingAppBarBody extends StatelessWidget {
           scrollBehavior: scrollBehavior,
           slivers: [
             SliverAppBar(
+              primary: false,
               actions: actions,
               snap: snap,
               floating: floating,
