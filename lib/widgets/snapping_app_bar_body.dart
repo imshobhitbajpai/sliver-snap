@@ -82,6 +82,7 @@ class SnappingAppBarBody extends StatelessWidget {
                   : expandedBackgroundColor,
               leading: leading,
               flexibleSpace: FlexibleSpaceBar(
+                collapseMode: CollapseMode.none,
                 background: expandedContent,
               ),
             ),
